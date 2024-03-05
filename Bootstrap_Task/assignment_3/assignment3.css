@@ -1,0 +1,45 @@
+.para1{
+    font-size: 4em;
+    font-family: sans-serif;  
+}
+.para2{
+    font-size: 2.2em;
+    font-family: sans-serif;
+    margin: 0;
+}
+.para4{
+    font-size: 2.2em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.imgdiv1{
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin:auto;
+}
+.para5{
+    font-size: 1.4em;
+    line-height: 1.5;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+@media(max-width:768px){
+    .para1{
+        font-size: 3em; 
+    }
+    .para2{
+        font-size: 2em;
+    }
+}
+@media(max-width:464px){
+    .para1{
+        font-size: 2.5em; 
+    }
+}
+@media(max-width:404px){
+    .para1{
+        font-size: 2em; 
+    }
+}

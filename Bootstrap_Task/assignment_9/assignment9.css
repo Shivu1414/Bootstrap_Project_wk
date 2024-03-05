@@ -1,0 +1,46 @@
+.row1{
+    background-color: rgb(255, 115, 0);
+}
+.para1{
+    font-size: 4em;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.div1{
+    width: 97%;
+}
+.div2{
+    margin-left: 22px;
+}
+.para2{
+    font-size: 2em;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: white;
+    text-align: justify;
+}
+.para3{
+    font-size: 3em;
+    font-family: sans-serif;
+    color: white;
+}
+.child11{
+    margin: auto;
+    width: 70%;
+    height: 221px;
+    background-image: url("img9.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* @media quary */
+
+@media(max-width:990px){
+    .div1{
+        width: 100%;
+    }
+    .div2{
+        margin-left: 0;
+    }
+}

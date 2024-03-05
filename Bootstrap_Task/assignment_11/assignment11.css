@@ -1,0 +1,33 @@
+.container-fluid, .child1{
+    background-color: purple;
+}
+.para1{
+    font-size: 3.3em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.para2{
+    font-size: 1.8em;
+    text-align: justify;
+    font-family: sans-serif;
+    color: black;
+}
+.div1{
+    border: 3px solid black;
+}
+.para3{
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: sans-serif;
+    color: black;
+}
+.para4{
+    color: black;
+}
+/* media quary */
+@media(max-width:990px){
+    .div2{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+.para1{
+    font-size: 2.5em;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color: white;
+}
+
+.para2{
+    font-size: 2.2em;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color: white;
+    text-align: justify;
+}
+.div2{
+    width: 95%;
+}
+.para3{
+    font-size: 1.9em;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color: white;
+    text-align: justify;
+}
+
+.div3{
+    margin-left:31px;
+}
+
+/* @media quary */
+@media(max-width:990px){
+    .div3{
+        margin-left:0;
+    }
+    .div2{
+        width: 100%;
+    }
+}
